@@ -1,0 +1,41 @@
+body{
+	background-color: #d0d4c6;
+}
+.list-item{
+	color: red;
+	font-weight: bold;
+	padding: 16px 10px 15px 12px;
+	margin-bottom: 5px;
+	background-color: #ecefe6;
+	border-radius: 5px;
+}
+.color{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,89,97,1) 0%, rgba(12,179,213,1) 33%);
+
+}
+/*
+	background-image:url();
+	background-repeat: repeat-x | repeat-y | no-repeat | repeat*;
+	background-size: % | contain | cover | auto* | ;
+	background-postion: x y |center;
+	background-attchment: scroll* | fixed;
+*/
+.list-item-pattern{
+	background-image: url(/pattern.png);
+	background-size: 10%;
+	height: 100px;
+
+}
+.list-item-image{
+	background-image: url(/trinh.jpg);
+	height: 100px;
+	background-size: contain;
+	background-repeat: repeat;
+}
+.list-item-parallax{
+	background-image: url(/trinh.jpg);
+	height: 100px;
+	background-size: contain;
+	background-attachment: fixed;
+}

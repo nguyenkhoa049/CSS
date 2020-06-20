@@ -1,0 +1,28 @@
+/*
+ States:
+  a:link;
+  a:visited;
+  a:hover;
+  a:active;
+*/
+.link-home:link{
+	color: #158fd8;
+	font-size: 30px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.link-home:visited{
+	color:#158fd8;
+
+}
+
+.link-home:hover{
+	text-decoration: underline;
+
+}
+
+.link-home:active{
+	color: red;
+
+}

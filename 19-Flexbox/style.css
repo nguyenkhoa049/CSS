@@ -1,0 +1,35 @@
+/*
+justify-content: flex-star* | flex-end | center |sapace-between | 
+sapce-around | sapce-evenly
+align-items: flex-star | flex-end | flex-center | baseline | stretch*
+flex-direction
+display:
+flex-basis:
+flex-grow;
+flex-shirnk: 1* | <number>;
+order: 0 | <number>
+*/
+.container {
+	display: flex;
+	background-color: #DDD;
+	flex-direction: row;
+}
+
+.child-1 {
+	background-color: red;
+	flex-basis: 150px;
+	order: 1;
+
+}
+
+.child-2 {
+	background-color: green;
+	flex-basis: 200px;		
+	flex-grow: 1;
+}
+
+.child-3 {
+	background-color: blue;	
+	flex-basis: 150px;
+	order: 2;
+}

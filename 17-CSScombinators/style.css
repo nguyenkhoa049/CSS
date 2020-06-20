@@ -1,0 +1,14 @@
+/*
+ CSS combinators
+ descendat selector (sapce)
+ child selector (>)
+ adjacment sibling selector(+)
+ general sibling selector(~) 
+*/
+.list-2 .item-2{
+	color: red;
+}
+
+.list-1 > .item{
+	border: 1px solid  #333;
+}

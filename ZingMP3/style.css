@@ -1,0 +1,83 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+.weekly-item{
+	display: flex;
+	width: 250px;
+	padding: 18px 0;
+	align-items: center;
+	border-bottom: 1px solid #EEE;
+	text-transform: capitalize;
+	margin-bottom: 8px;
+}
+
+.weekly-item .number{
+	font-size: 20px;
+	padding: 0 8px;
+}
+
+.weekly-item .info{
+	font-size: 14px;
+	flex-grow: 1;
+}
+
+.weekly-item .title{
+	margin-bottom: 8px;
+}
+
+.weekly-item .singer{
+	font-size: 13px;
+	color: #999;
+}
+
+.weekly-item .view-count{
+	font-size: 13px;
+	color: #999;
+}
+
+.album{
+	text-transform: capitalize;
+	display: flex;
+	width: 500px;
+}
+
+.album .album-cover{
+	
+	width: 128px;
+	height: 128px;
+	background-image: url(https://travelgear.vn/blog/wp-content/uploads/2019/08/dia-diem-du-lich-va-canh-dep-nhat-ban.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+ .album .album-cover .overlay{
+	color: #fff;
+	font-size: 20px;
+	height: 100%;
+	background: linear-gradient(0deg, rgba(0,0,8,1) 0%, rgba(0,0,0,0.5816701680672269) 0%, 
+	rgba(238,238,238,0.3435749299719888) 100%);
+	display: flex;
+	align-items: flex-end;
+	padding: 6px;
+	box-sizing: border-box;
+}
+.album .album-info{
+	padding: 12px 0 12px 12px;
+	flex-grow: 1;
+}
+
+.album .album-info .title-album{
+	margin-bottom: 8px
+}
+.album .album-info .singer-ablum{
+	margin-bottom: 8px;
+	font-size: 13px;
+	color: #999;
+}
+
+.album .album-info .view-album{
+	font-size: 13px;
+	color: #999;
+}

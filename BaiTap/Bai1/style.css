@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.06), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+	margin: 50px;
+}
+.title{
+	color: #666;
+	font-size: 30px;
+}
+
+.decscrip{
+  color: #AAA;
+	font-size: 18px;
+  margin-bottom:10px;
+}
+
+.image{
+  display: flex;
+}
+
+.img{
+  border-radius: 5px;
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	background-position: center;
+	margin-right: 8px; 
+}
+
+.img1{
+  background-image: url(https://scontent.fsgn5-7.fna.fbcdn.net/v/t1.15752-9/104028059_313856532944369_6073423987227621022_n.jpg?_nc_cat=104&_nc_sid=b96e70&_nc_ohc=YDOdW_FsTJkAX8yBWi7&_nc_ht=scontent.fsgn5-7.fna&oh=67e9dcf5a33c93836f5b186dde04d2af&oe=5F064164);
+}
+.img2{
+  background-image: url(https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.15752-9/104105837_3300284650029680_3777648769246507437_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_ohc=VFxCVNiXR04AX9creww&_nc_ht=scontent.fsgn5-2.fna&oh=25d59148acb9b60af1c8ef1f718a726f&oe=5F06ED5D);
+  }
+
+.img3{
+  background-image: url(https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.15752-9/103811462_433407020926041_4876365763376360170_n.jpg?_nc_cat=111&_nc_sid=b96e70&_nc_ohc=YOW-fCGUWaoAX8Lh4qP&_nc_ht=scontent.fsgn5-6.fna&oh=cfcb9e2651a80d1a5a80392e85d1c1cd&oe=5F08A045);
+}
+.img4{
+  background-image: url(https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.15752-9/103416946_249259683043433_5749276229181476300_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_ohc=zDRV9jZGbzQAX8ZPK7M&_nc_ht=scontent.fsgn5-2.fna&oh=859afb70b62912c87d4104d375d15fcb&oe=5F077BC8);
+}
+.img5{
+  background-image: url(https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.0-9/p720x720/99241483_2319708198333175_2201301568198803456_o.jpg?_nc_cat=109&_nc_sid=13bebb&_nc_ohc=k1h9j6_nLHMAX8WWKhU&_nc_ht=scontent.fsgn5-6.fna&_nc_tp=6&oh=04b02c6ba3770e6769a050a715de62ea&oe=5F083E45);
+}
+.img6{
+  background-image: url(https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.0-9/53918240_2020992334871431_7768301210766934016_n.jpg?_nc_cat=108&_nc_sid=110474&_nc_ohc=bB-GJ9cUvLIAX8_FYp_&_nc_ht=scontent.fsgn5-5.fna&oh=a09155baa900a2583aa55bcf652076f9&oe=5F064CE1);
+}
