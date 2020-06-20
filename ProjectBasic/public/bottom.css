@@ -1,0 +1,167 @@
+.bottom{
+	background-color: var(--black-color);
+	width: 100%;
+	height: auto;
+	position: relative;	
+	float: left;
+	text-align: center;
+}
+
+.bottom-col {
+	position: relative;
+    width: 100%;
+    height: 441px;
+    padding: 40px 0 3%;
+}
+.logo-bottom{
+	width: 220px;
+    height: 30px;
+    margin: 0 auto 20px;
+    vertical-align: top;
+}
+
+.bottom-info{
+	float: left;
+    display: inline-block;
+    width: 18%;
+    max-width: 150px;
+    margin: 0 10px;
+}
+.info-women{
+	margin-left: 80px;
+}
+
+.bottom-info h3{
+    font-size: 18px;
+    line-height: 18px;
+    color: #bbb;
+    padding: 0 10px;
+    margin: 20px 0;	
+    text-align: left;
+}
+.bottom-info ul,li{
+	display: block;
+	width: auto;
+	text-align: left;
+}
+.bottom-info ul,li,a{
+    font-size: 13px;
+    line-height: 18px;
+    color: #bbb;
+    padding: 2px 0px;
+    border: 1px solid rgba(176,176,176,0);
+}
+
+.social{
+	width: auto;
+	max-width: 430px;
+	text-align: left;
+}
+
+.company-info{
+    width: 100%;
+    position: relative;
+}
+.company-info h2{
+	position: relative;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #bbb;
+    margin: 17px 0 0;
+}
+.company-info h2 br{
+	display: none;
+}
+.company-info ul{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+.company-info li{
+	position: relative;
+	height: auto;
+	margin: 10px 0;
+	text-align: left;
+}
+.company-info p{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    padding: 0;
+    font-weight: 300;
+    color: #bbb;
+    font-size: 13px;
+    width: auto;
+    line-height: 26px;
+}
+
+.address{
+	width: auto;
+    text-align: left;
+}
+.company-icon img{
+    content: ' ';
+    width: 22px;
+    height: 25px;
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.social-network ul{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.social-network li{
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 3px;
+}
+
+.social-network a{
+	display: block;
+    text-indent: -9999px;
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 50%;   
+}
+.social-network a.facebook{
+	 background: url(./image/facebook.png) center center no-repeat;
+	 background: cover;
+}
+.social-network a.youtube{
+	 background: url(./image/youtube.png) center center no-repeat;
+	 background: cover;
+}
+
+.copyright{
+	position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #353535;
+}
+
+.copyright p{
+	font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #979797;
+    padding: 14px 5%;
+    height: auto;
+    width: 100%;
+}
+
+.copyright a{
+	color: #979797;
+    white-space: nowrap;
+}

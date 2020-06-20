@@ -1,0 +1,36 @@
+body {
+	box-sizing: border-box;
+    margin: 0px;
+    line-height: 1;
+    background-color: #fff;
+    margin: 0;
+    line-height: 1;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+div,p,ul,li,a,img,h1,h3,h4{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #bbb;
+}
+*{
+    box-sizing: border-box;
+}
+
+:root{
+	--text-color: #fff;
+	--black-color:#000;
+
+}
+
+.cotainer {
+    width: auto;
+    height: auto;
+    position: relative;
+}
